@@ -15,6 +15,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/*
+ * SwaggerConfiguration - Single point to configure the swagger documentation for all the api's.
+ */
 @Configuration
 @EnableSwagger2
 public class SwaggerConfiguration {

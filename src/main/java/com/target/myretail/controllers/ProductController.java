@@ -27,6 +27,9 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
+/*
+ * ProductController - provides API's to fetch the products from the catalogue.
+ */
 @RestController
 @RequestMapping("/products")
 @Api(value = "MyRetail Store", description = "MyRetail product catalogue.")

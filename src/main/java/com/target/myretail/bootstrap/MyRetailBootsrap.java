@@ -7,13 +7,15 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 
-import com.target.myretail.application.MyRetailApplication;
 import com.target.myretail.models.CurrentPrice;
 import com.target.myretail.models.Product;
 import com.target.myretail.models.ProductDescription;
 import com.target.myretail.repositories.ProductDescriptionRepository;
 import com.target.myretail.repositories.ProductRepository;
 
+/*
+ * MyRetailBootsrap - Bootstraps all the sample data to test and check how the api works.
+ */
 @Component
 public class MyRetailBootsrap implements ApplicationListener<ContextRefreshedEvent> {
 

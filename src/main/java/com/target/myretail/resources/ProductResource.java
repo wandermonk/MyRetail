@@ -8,6 +8,9 @@ import com.target.myretail.models.Product;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
+/*
+ * ProductResource - Creates resources with HATEOAS for the headless clients.
+ */
 public class ProductResource extends ResourceSupport {
 
 	private final Product product;

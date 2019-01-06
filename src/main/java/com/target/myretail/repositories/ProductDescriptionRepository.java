@@ -6,6 +6,9 @@ import org.springframework.stereotype.Service;
 
 import com.target.myretail.models.ProductDescription;
 
+/*
+ * ProductDescriptionRepository - Repository to perform CRUD operations on the Products Description store.
+ */
 @Repository
 @Service
 public interface ProductDescriptionRepository extends MongoRepository<ProductDescription, Integer> {

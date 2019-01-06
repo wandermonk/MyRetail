@@ -1,5 +1,8 @@
 package com.target.myretail.apiresponse;
 
+/*
+ * ResponseMessages interface has all the response messages for different request scenarios.
+ */
 public interface ResponseMessages {
 
 	//-ve

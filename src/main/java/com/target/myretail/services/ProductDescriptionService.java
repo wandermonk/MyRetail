@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 import com.target.myretail.models.ProductDescription;
 import com.target.myretail.repositories.ProductDescriptionRepository;
 
+/*
+ * ProductDescriptionService - Service
+ */
 @Service
 public class ProductDescriptionService implements IProductDescriptionService {
 	private final Logger logger = LoggerFactory.getLogger(ProductDescriptionService.class);

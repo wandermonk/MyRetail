@@ -11,6 +11,11 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
+
+/*
+ * MyRetail application provides apis to search for different 
+ * products and the corresponding price and descriptions.
+ */
 @Configuration
 @EnableAutoConfiguration
 @SpringBootApplication
