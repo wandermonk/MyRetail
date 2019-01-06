@@ -42,6 +42,11 @@ public class ProductController {
 	public void setProductService(ProductService productService) {
 		this.productService = productService;
 	}
+	
+	@Autowired
+	public void setProductDescriptionService(ProductDescriptionService productDescriptionService) {
+		this.productDescriptionService = productDescriptionService;
+	}
 
 	@ApiOperation(value = "Show all available products", response = Iterable.class)
 	@ApiResponses(value = { @ApiResponse(code = 200, message = "Successfully retrieved list"),

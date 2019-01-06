@@ -25,6 +25,12 @@ public class ProductDescription {
 	private Integer productId;
 	@JsonProperty("product_desc")
 	private String productDesc;
+	
+	public ProductDescription(Integer productId, String productDesc) {
+		super();
+		this.productId = productId;
+		this.productDesc = productDesc;
+	}
 
 	@JsonProperty("productId")
 	public ObjectId getId() {
