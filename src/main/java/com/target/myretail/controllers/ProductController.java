@@ -80,9 +80,10 @@ public class ProductController {
 		Product product = productService.getProductById(id);
 		logger.info("Getting product description and details with Product ID :: " + id);
 		ProductDescription productDesc = productDescriptionService.getProductById(id);
+		logger.info(productDesc.toString());
 		ProductWithDescription productWithDesc = new ProductWithDescription();
 		productWithDesc.setProductId(product.getproductID());
-		productWithDesc.setProductDesc(productWithDesc.getProductDesc());
+		productWithDesc.setProductDesc(productDesc.getProductDesc());
 		productWithDesc.setCurrentPrice(product.getCurrentPrice());
 		ObjectMapper om = new ObjectMapper();
 		String productWithDescription = "";
